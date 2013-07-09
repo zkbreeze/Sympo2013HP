@@ -1,0 +1,282 @@
+/* 全体の設定 */
+body {
+	margin: 0;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+	font-family: "ヒラギノ明朝 ProN W6","HiraMinProN-W6", "ＭＳ 明朝","MS Mincho", serif;
+	font-size: 0.92em;
+	line-height: 20px;
+	color: #261914;
+	background-color: #EEEAE0; /*#FAF9F5*/
+	min-height: 1080px;
+}
+
+
+
+.container-narrow {
+	background-color:rgb(250, 248, 244);
+}
+
+footer{
+	background-color: #252525;
+	color: #fefefe;
+}
+
+a {
+	color: rgb(0, 132, 206);
+	/*color: #069;*/
+}
+a:hover{
+	text-decoration: underline;
+}
+
+strong {
+	font-weight: bold;
+	color:rgb(207, 0, 33);
+}
+
+em {
+	font-weight: bold;
+	font-style:inherit;
+	/*text-decoration:underline;*/
+}
+
+
+
+
+
+/*ページタイトル*/
+#top-title{
+	border-top:5px solid rgb(13, 0, 160);
+	border-bottom:5px solid rgb(13, 0, 160);
+}
+
+.page-header{
+	border-bottom: #000 1px solid !important; 
+}
+
+#top-image {
+	background:rgb(252, 252, 251);
+	border-bottom:1px solid rgb(13, 0, 160);
+}
+#top-image a {
+	display:block;
+	text-decoration:none;
+}
+#top-image a:hover {
+	text-decoration:none;
+}
+
+#header-title {
+	margin: 0 auto;
+	padding:8px 10px 4px 10px;
+	font-family: "ヒラギノ明朝 ProN W6","HiraMinProN-W6", "ＭＳ 明朝","MS Mincho", serif;
+	text-shadow: 3px 3px 3px #fff;
+	color:rgb(17, 20, 90);
+	/*background-color: rgb(223, 221, 221);*/
+}
+
+#header-subtitle{
+	margin: 0 auto 0 auto;
+	padding: 2px 10px;
+	font-family: "Times New Roman";
+	text-shadow: 3px 3px 3px #fff;
+	color:rgb(17, 20, 90);
+	/*background-color:rgb(182, 209, 156);;*/
+}
+
+#topCarousel{
+	margin:0 auto 0 auto;
+}
+#topCarousel .carousel-inner{
+	max-height:300px;
+}
+#topCarausel img{
+	
+}
+
+
+
+
+
+
+
+
+/*一番上のナビゲーションバー*/
+
+.navbar-inner {
+	background-image: -webkit-linear-gradient(top, white, #F5F5F5);
+	background-image: -o-linear-gradient(top, white, #F5F5F5);
+	background-image: linear-gradient(to bottom, white, #F5F5F5);
+}
+
+
+/*真ん中のナビゲーションバー*/
+#h-navbar {
+	background:rgb(248, 246, 242);
+	margin:0;
+}
+
+#h-navbar a:hover {
+	background:#FCFCFC;
+}
+
+.nav-tabs > li {
+	text-align: center;
+	width: 16.6%;
+}
+
+
+
+
+
+
+/*真ん中のコンテンツ*/
+
+.tab-pane {
+	min-height: 680px;
+}
+
+
+.content-container {
+	min-height: 200px;
+	margin-bottom: 3em;
+}
+.content-container h2 {
+	font-size: 1.52em;
+	line-height: 1.60em;
+	border-bottom: #000000 1px solid;  
+}
+.content-container h3{
+	font-size : 1.4em;
+	line-height: 1.6em;
+	border-left:#222222 0.4em double;
+	border-bottom: #000000 1px solid;  
+	padding-left:1em;
+}
+.content-container p{
+	text-indent: 1em; /*字下げの設定*/
+}
+.content-container a{
+	text-decoration: underline;
+}
+
+
+
+#info_box{
+	height: 140px;
+	margin: -10px 0 0 0;
+	border-bottom: 1px solid #fff;
+	background: rgb(255, 255, 255);
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;*/
+	box-shadow: inset 0px 1px 2px 0px #666;
+	-webkit-box-shadow: inset 0px 1px 2px 0px #666;
+	-moz-box-shadow: inset 0px 1px 2px 0px #666;
+	overflow: scroll;
+}
+#info h2 {
+	border-bottom: none;
+}
+#info ul {
+	list-style-type:disc;
+}
+#info li {
+	display: list-item;
+	padding: 0.3em;
+	whitespace: nowrap;
+}
+.timestamp {
+	margin-left: 0.5em;
+	/*float: right;*/
+}
+
+#poster img {
+	width:95%;
+}
+
+
+
+
+
+
+
+#linkToSympoHP h3 {
+	font-size: 1.12em;
+	border-bottom: none;
+	border-left: none;
+}
+#linkToSympoHP img {
+	width: 20em;
+}
+
+
+#sponsers h3 {
+	font-size: 1.3em;
+	border-bottom: none;
+	border-left: none;
+}
+
+#sponsers ul {
+	margin-left:4em;
+}
+#sponsers li {
+	min-height:3.4em;
+}
+
+.icon-img {
+	height:2.1em;
+	width:2.1em;
+	margin-left: 0.3em;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*右側のお知らせ欄*/
+
+.sidebar-header {
+	font-size: 1.6em;
+	border-bottom: #000000 1px solid !important;
+}
+
+.sidebar-content-container {
+	margin-bottom: 3em;
+}
+
+.sidebar-content-container h2 {
+	font-size: 1.6em;
+	border-bottom: #000000 1px solid !important;
+}
+
+
+
+ /*banner link */
+
+.hp-banner {
+	max-height:80px;	
+}
+
+
+
+
+
+
+
+
+
+/*レイアウト*/
+.container-narrow {
+	max-width: 960px;
+}
+
+

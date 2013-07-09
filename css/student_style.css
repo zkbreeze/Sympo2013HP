@@ -1,0 +1,288 @@
+/* 全体の設定 */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #EEEAE0; /*#FAF9F5*/
+  min-height: 1080px;
+}
+
+header {
+  height: 280px;
+  background: url(../img/student_top_image.jpg) repeat center center;
+  background-size: cover;
+  border-top:solid 5px rgb(0, 25, 156);
+  border-bottom:solid 5px rgb(0, 25, 156);
+}
+
+strong {
+	font-weight: bold;
+	color:rgb(207, 0, 33);
+}
+
+
+
+/*ページタイトル*/
+
+.page-header {
+  border-bottom: #000 1px solid !important;
+}
+#top-image a {
+  display:block;
+  text-decoration:none;
+}
+#top-image a:hover {
+  text-decoration:none;
+}
+
+#header-title {
+	margin-bottom: 0;
+	padding: 10px 10px 0 10px;
+	font-family: "ヒラギノ明朝 ProN W6","HiraMinProN-W6", "ＭＳ 明朝","MS Mincho", serif;
+	text-shadow: 1px 1px 1px rgb(10, 48, 97);
+	color:rgb(17, 20, 90);
+	background-color: rgba(223, 221, 221, 0.74);
+}
+
+#header-subtitle{
+	margin-top: 0;
+	padding: 0 10px;
+	font-family: "Times New Roman";
+	color:rgb(17, 20, 90);
+	background-color:rgba(182, 209, 156, 0.74)
+}
+
+
+
+/*左のリスト*/
+
+/*local mod for bootstrap*/
+#student_navColumn .navbar-inner {
+  min-height: 30px;
+}
+
+#student_navColumn .nav-list {
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#student_navColumn .accordion {
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#student_navColumn .accordion-group{
+  margin:0;
+  border:none;
+}
+
+#student_navColumn h2 {
+  font-size: 1.3em;
+  text-shadow: 1px 1px #bbbgit ;
+  padding-left: 0.5em;
+  margin: 0;
+}
+
+.list-header {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.nav .list-header .doublelink {
+  display: inline;
+}
+.nav .sublink {
+  display: inline;
+  font-size: 0.8em;
+  float:right;
+}
+
+.list-divider {
+  height:0;
+  width:100%;
+  margin-top:0.5em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  -webkit-box-shadow: #fff 0 1px 0;
+  -moz-box-shadow: #fff 0 1px 0;
+  box-shadow: #fff 0 1px 0;
+  margin-bottom:0.5em;
+}
+
+
+.accordion-heading {
+	background: #ccc;
+}
+
+
+#SNS {
+	margin-top:5em;
+}
+/*twitter timeline*/
+/*div.twitter-timeline .timeline-header,
+div.twitter-timeline .new-tweets-bar,
+div.twitter-timeline .stream,
+div.twitter-timeline .timeline-footer {
+	width: 100% !important;
+}*/
+div.twitter-timeline inframe{
+	width: 100% !important;
+}
+/*facebook -like-box*/
+div.likebox-container .fbcomments,
+div.likebox-container .fb_iframe_widget,
+div.likebox-container .fb_iframe_widget[style],
+div.likebox-container .fb_iframe_widget iframe[style],
+div.likebox-container .fbcomments iframe[style],
+div.likebox-container .fb_iframe_widget span{
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*真ん中のコンテンツ*/
+
+.content-header {
+  font-size : 1.6em;
+  border-left:#222222 0.4em double;
+  padding-left:1em;
+}
+.content-header2{
+  border-bottom: #000000 1px solid;
+}
+
+
+.content-body h2 {
+	font-size: 2.0em;
+	color: rgb(33, 65, 80);;
+	text-align: center;
+  text-shadow: 1px 1px #FDFDFD;
+  line-height: 1.67em;
+  background-color: inherit;
+  margin-top:5em;
+  margin-bottom:3em;
+  border-top: 1px solid #fdfdfd;
+}
+
+.content-container {
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+
+.content-container h2 {
+  font-size:1.67em;
+  color: #333;
+  text-align: left;
+  text-shadow: 1px 1px #FDFDFD;
+  line-height: 1.67em;
+  background-color:#EEEAE0;
+  margin-top:0;
+  margin-bottom:0.5em;
+  border-top: none;
+  border-bottom: 1px solid rgba(10,10,10,0.4);
+  -webkit-box-shadow: #fdfdfd 0 1px 0;
+  -moz-box-shadow: #fdfdfd 0 1px 0;
+  box-shadow: #fdfdfd 0 1px 0;
+}
+.content-container h3 {
+  font-size : 1.2em;
+  text-shadow: 1px 1px #FCFCFC;
+  line-height: 1.2em;
+  /*border-left:#222222 0.2em solid;*/
+  border-left:#333 0.2em solid;*/
+  margin-left:0.34em;
+  padding-left:0.5em;
+}
+.content-container h4 {
+  font-size: 1.0em;
+  line-height: 1.0em;
+  text-shadow: 1px 1px #FCFCFC;
+  padding-left: 0.5em;
+}
+.content-container p {
+  font-size : 1.0em;
+  padding-left: 1.5em;
+  text-indent: 0em; /*字下げの設定*/
+}
+.content-container > p.noIndent {
+  text-indent: 0;
+}
+.content-container li {
+  list-style: none;
+}
+.content-container a {
+  text-decoration:underline;
+}
+
+#info_box{
+	height: 180px;
+	margin: -12px 0 0 0;
+	overflow: scroll;
+}
+
+#info ul li {
+	list-style: disc;
+	display: list-item;
+	padding: 0.3em;
+	whitespace: nowrap;
+}
+#info .timestamp {
+	margin-left: 0.5em;
+	/*float: right;*/
+}
+
+.schedule {
+	margin: auto auto auto 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*一番下のフッター*/
+
+footer{
+  background-color: #252525;
+  color: #fefefe;
+}
+
+
+
+
+
+
+
+
+
+
