@@ -292,6 +292,27 @@ footer{
 
 
 
+/* settings for external site contents*/
+.slideContainer{
+	display:block;
+	height:320px;
+	margin: 0 0 0 20px;
+	text-align:center;
+}
+
+.slideshareContainer{
+	display:inline-block;
+	width:344px;
+	height:311px;
+}
+
+.videoContainer{
+	display:inline-block;
+	float:left;
+}
+
+
+
 
 
 
