@@ -295,13 +295,22 @@ footer{
 /* settings for external site contents*/
 .slideContainer{
 	display:block;
-	height:320px;
-	margin: 0 0 0 20px;
-	text-align:center;
+	margin: 0 0 2em 2em;
 }
+.slideContainer:after {  
+    content: ".";  
+    display: block;  
+    visibility: hidden;  
+    height: 0.1px;  
+    font-size: 0.1em;  
+    line-height: 0;  
+    clear: both;  
+}  
 
 .slideshareContainer{
 	display:inline-block;
+	float:left;
+	margin: 0 0 0 2em;
 	width:344px;
 	height:311px;
 }
@@ -310,6 +319,7 @@ footer{
 	display:inline-block;
 	float:left;
 }
+
 
 
 
